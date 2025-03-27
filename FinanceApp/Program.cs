@@ -1,7 +1,15 @@
+using FinanceApp.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+var connString = builder.Configuration.GetConnectionString("DefaultConnectionString");
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<FinanceAppContext>(options => options.UseSqlite(connString));
+
+// builder.Services.AddSqlite<FinanceAppContext>(connString); //shortcut of addDbContect without all options
 
 var app = builder.Build();
 
@@ -20,10 +28,7 @@ app.UseAuthorization();
 
 app.MapStaticAssets();
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
+app.MapControllerRoute(name: "default", pattern: "{controller=Home}/{action=Index}/{id?}")
     .WithStaticAssets();
-
 
 app.Run();
