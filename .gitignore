@@ -761,3 +761,4 @@ FinanceApp/obj/Release/net9.0/staticwebassets/msbuild.buildMultiTargeting.Financ
 FinanceApp/obj/Release/net9.0/staticwebassets/msbuild.buildTransitive.FinanceApp.props
 FinanceApp/obj/Release/net9.0/staticwebassets/msbuild.FinanceApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 FinanceApp/obj/Release/net9.0/staticwebassets/msbuild.FinanceApp.Microsoft.AspNetCore.StaticWebAssets.props
+FinanceApp/bin/Release/net9.0/publish/finance.db
