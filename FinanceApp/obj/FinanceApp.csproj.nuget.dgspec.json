@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\alfa3\\OneDrive\\Webdev\\Csharp\\Practice\\MVCpractioceapp\\FinanceApp\\FinanceApp.csproj": {}
+    "C:\\Users\\alfa3\\OneDrive\\Webdev\\Csharp\\Practice\\MVCpractioceapp\\FinanceApp\\FinanceApp.csproj": {}
   },
   "projects": {
-    "c:\\Users\\alfa3\\OneDrive\\Webdev\\Csharp\\Practice\\MVCpractioceapp\\FinanceApp\\FinanceApp.csproj": {
+    "C:\\Users\\alfa3\\OneDrive\\Webdev\\Csharp\\Practice\\MVCpractioceapp\\FinanceApp\\FinanceApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\alfa3\\OneDrive\\Webdev\\Csharp\\Practice\\MVCpractioceapp\\FinanceApp\\FinanceApp.csproj",
+        "projectUniqueName": "C:\\Users\\alfa3\\OneDrive\\Webdev\\Csharp\\Practice\\MVCpractioceapp\\FinanceApp\\FinanceApp.csproj",
         "projectName": "FinanceApp",
-        "projectPath": "c:\\Users\\alfa3\\OneDrive\\Webdev\\Csharp\\Practice\\MVCpractioceapp\\FinanceApp\\FinanceApp.csproj",
+        "projectPath": "C:\\Users\\alfa3\\OneDrive\\Webdev\\Csharp\\Practice\\MVCpractioceapp\\FinanceApp\\FinanceApp.csproj",
         "packagesPath": "C:\\Users\\alfa3\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\alfa3\\OneDrive\\Webdev\\Csharp\\Practice\\MVCpractioceapp\\FinanceApp\\obj\\",
+        "outputPath": "C:\\Users\\alfa3\\OneDrive\\Webdev\\Csharp\\Practice\\MVCpractioceapp\\FinanceApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PY19KM7Vcz8=",
+  "dgSpecHash": "XfitLMcVqPg=",
   "success": true,
-  "projectFilePath": "c:\\Users\\alfa3\\OneDrive\\Webdev\\Csharp\\Practice\\MVCpractioceapp\\FinanceApp\\FinanceApp.csproj",
+  "projectFilePath": "C:\\Users\\alfa3\\OneDrive\\Webdev\\Csharp\\Practice\\MVCpractioceapp\\FinanceApp\\FinanceApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alfa3\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\alfa3\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
