@@ -1,4 +1,5 @@
 using FinanceApp.Data;
+using FinanceApp.Data.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +11,9 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<FinanceAppContext>(options => options.UseSqlite(connString));
 
 // builder.Services.AddSqlite<FinanceAppContext>(connString); //shortcut of addDbContect without all options
+
+
+builder.Services.AddScoped<IExpensesService, ExpensesService>();
 
 var app = builder.Build();
 
